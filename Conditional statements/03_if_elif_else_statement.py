@@ -100,11 +100,60 @@ else:
     print("Invalid username or password")
 print("Program ended!!!!!!!!!!!!!!!")
 
+"""
+a=10
+b=20
+c=5
+print-->5,10,20
+"""
+a=10
+b=20    
+c=5
+if(c<a<b):
+    print(c,a,b)
+elif(a<c<b):
+    print(a,c,b)
+else:
+    print(a,b,c)
+print("Program ended!!!!!!!!!!!!!!!")
 
+"""
+a=10
+b=20
+c=5
+print-->20,10,5
+"""
+a=10
+b=20
+c=5
+if(b>a>c):
+    print(b,a,c)
+elif(b>c>a):
+    print(b,c,a)
+else:
+    print(a,b,c)
 
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+c=int(input("Enter third number:"))
+if(c<a<b):
+    print(c,a,b)
+elif(a<c<b):
+    print(a,c,b)
+else:
+    print(a,b,c)
+print("Program ended!!!!!!!!!!!!!!!")
 
-
-
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+c=int(input("Enter third number:"))
+if(b>a>c):
+    print(b,a,c)
+elif(b>c>a):
+    print(b,c,a)
+else:
+    print(a,b,c)
+print("Program ended!!!!!!!!!!!!!!!")
 
 
 
