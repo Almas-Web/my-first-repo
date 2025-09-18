@@ -1,18 +1,14 @@
-# Python Loops Practice
+# Python For Loop Practice
 
-This repository contains Python examples to practice **for loops**.  
-Each file shows different use cases step by step.
+This folder contains multiple examples of **for loops** in Python.  
+These examples cover basic loops, nested loops, list and string iteration, using `break` and `continue`, `enumerate`, `zip`, list comprehensions, and star patterns.
 
 ---
 
-##  Files
-
-### 1. `01_basic_for_loop.py`
-
-Covers the following topics:
+## Topics Covered
 
 1. **Looping through a list**
-   ```python
-   fruits = ["apple", "banana", "cherry"]
-   for i in fruits:
-       print(i)
+```python
+fruits = ["apple", "banana", "cherry"]
+for i in fruits:
+    print(i)
