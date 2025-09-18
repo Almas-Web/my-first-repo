@@ -51,3 +51,55 @@ for value in person.values():
     print(value)
 for key, value in person.items():
     print(key, ":", value)
+
+# list iteration with break
+names = ["Alice", "Bob", "Charlie", "David", "Eve",
+          "Frank", "Grace", "Heidi", "Ivan", "Judy"]
+for name in names:
+    if name =="David":
+        print("Found!")
+        break
+    else:
+        print("Not Found!")
+# list iteration with continue
+fruits = ["apple", "banana", "cherry", "date", "fig", "grape"]
+for fruit in fruits:
+    if fruit == "apple":
+        continue # skip the rest of the loop for this iteration
+    print(fruit)
+# using continue to find even numbers
+
+start=int(input("Enter starting number: "))
+end=int(input("Enter ending number: "))
+for i in range(start,end+1):
+    if i%2==1:
+        continue # skip the rest of the loop for this iteration
+    print(i)
+
+#using continuew to find odd numbers
+start=int(input("Enter starting number: "))
+end=int(input("Enter ending number: "))
+for i in range(start,end+1):
+    if i%2==0:
+        continue # skip the rest of the loop for this iteration
+    print(i)
+
+#naive way to find even numbers
+start=int(input("Enter starting number: "))
+end=int(input("Enter ending number: "))
+count=0
+for i in range(start,end):
+    if i%2==0:
+        print(i)
+        count+=1
+print(f"Total even numbers between {start} and {end} is: {count}")
+
+#naive way to find odd numbers
+start=int(input("Enter starting number: "))
+end=int(input("Enter ending number: "))
+count=0
+for i in range(start,end):
+    if i%2==1:
+        print(i)
+        count+=1
+print(f"Total odd numbers between {start} and {end} is: {count}")

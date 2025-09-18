@@ -1,4 +1,35 @@
-# nested for loop 
+#nested for loop 2 level
+for i in range(1,4): # outer loop
+    for j in range(1,4): # inner loop
+        print(f"i={i}, j={j}")
+        j+=1
+    i+=1
+
+#nested for loop 3 level
+for i in range(1,3): # outer loop
+    for j in range(1,3): # middle loop
+        for k in range(1,3): # inner loop
+            print(f"i={i}, j={j}, k={k}")
+            k+=1
+        j+=1
+    i+=1
+
+#stepping in nested for loop
+for i in range(1,9):
+    print(i)
+for i in range(1,9,2):
+    print(i)
+for i in range(2,9,3):
+    print(i)
+for i in range(9,1,-1):
+    print(i)
+
+
+
+
+
+# nested for loop
+
 for i in range(2): # outer loop
     for j in range(3): # inner loop
         print(f"i={i}, j={j}")
